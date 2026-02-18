@@ -4,8 +4,7 @@ This project replicates the UI of Netflix with movies layout, banner section, an
 
 
 ## 🚀 Live Demo
-👉  https://pradeep-patel06.github.io/Netflix-clone/
-
+👉  netflix-clone-liard-phi.vercel.app
 
 
 
