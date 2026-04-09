@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const authMessage = document.getElementById("authMessage");
     const toggleAuth = document.getElementById("toggleAuth");
 
-    let isLogin = true; // ✅ FIXED POSITION
+    let isLogin = true; 
 
     
     const loggedUser = localStorage.getItem("loggedInUser");

@@ -324,7 +324,7 @@ footer .questions {
     margin:15px 0;
 }
 
-/* ================= FOOTER ================= */
+
 .footer {
     background-color: #000;
     color: #999;
@@ -357,7 +357,7 @@ footer .questions {
     color: #666;
 }
 
-/* ================= RESPONSIVE ================= */
+
 @media (max-width: 600px){
 
     .main input{
@@ -378,14 +378,14 @@ footer .questions {
     }
 }
 
-/* ================= BUTTON FIX ================= */
+
 .btn-red:hover {
     background-color: rgb(193, 17, 25);
     transform: scale(1.05);
     transition: 0.3s;
 }
 
-/* ================= NAV BUTTONS ================= */
+
 #loginBtn,
 #signupBtn {
     padding: 8px 16px;
@@ -395,21 +395,21 @@ footer .questions {
     cursor: pointer;
 }
 
-/* Login */
+
 #loginBtn {
     background: transparent;
     border: 1px solid white;
     color: white;
 }
 
-/* Signup */
+
 #signupBtn {
     background: red;
     border: none;
     color: white;
 }
 
-/* Hover */
+
 #loginBtn:hover {
     background: white;
     color: black;
@@ -419,14 +419,14 @@ footer .questions {
     background: darkred;
 }
 
-/* Navbar alignment */
+
 nav div {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-/* ================= POPUP ================= */
+
 .auth-popup {
     position: fixed;
     top: 0;
@@ -443,7 +443,7 @@ nav div {
     z-index: 999;
 }
 
-/* ================= AUTH BOX ================= */
+
 .auth-box {
     background: rgba(0,0,0,0.9);
     padding: 30px;
@@ -456,7 +456,7 @@ nav div {
     box-shadow: 0 0 20px rgba(0,0,0,0.8);
 }
 
-/* ================= INPUT ================= */
+
 .auth-box input {
     width: 100%;
     padding: 12px;
@@ -470,7 +470,7 @@ nav div {
     font-size: 14px;
 }
 
-/* ================= AUTH BUTTON ================= */
+
 .auth-box button {
     width: 100%;
     padding: 12px;
@@ -494,7 +494,7 @@ nav div {
     background: linear-gradient(45deg, darkred, red);
 }
 
-/* ================= MESSAGE ================= */
+
 #authMessage {
     margin-top: 10px;
     font-size: 14px;
