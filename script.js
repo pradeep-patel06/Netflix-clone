@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    // ================= FAQ =================
+   
     let questions = document.querySelectorAll(".faq-question");
 
     questions.forEach((q) => {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // ================= EMAIL =================
+    
     const emailInput = document.getElementById("emailInput");
     const emailError = document.getElementById("emailError");
     const getStartedBtn = document.getElementById("getStartedBtn");
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (e.key === "Enter") getStartedBtn.click();
     });
 
-    // ================= AUTH =================
+    
     const loginBtn = document.getElementById("loginBtn");
     const signupBtn = document.getElementById("signupBtn");
     const logoutBtn = document.getElementById("logoutBtn");
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let isLogin = true; // ✅ FIXED POSITION
 
-    // ================= CHECK LOGIN ON LOAD =================
+    
     const loggedUser = localStorage.getItem("loggedInUser");
 
     if (loggedUser) {
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
         signupBtn.style.display = "none";
     }
 
-    // ================= TOGGLE LOGIN / SIGNUP =================
+    
     toggleAuth.addEventListener("click", () => {
 
         isLogin = !isLogin;
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         authMessage.innerText = "";
     });
 
-    // ================= NAV BUTTONS =================
+    
     loginBtn.addEventListener("click", () => {
         isLogin = true;
 
@@ -119,14 +119,14 @@ document.addEventListener("DOMContentLoaded", function () {
         authMessage.innerText = "";
     });
 
-    // CLOSE POPUP
+    
     authPopup.addEventListener("click", (e) => {
         if (e.target === authPopup) {
             authPopup.style.display = "none";
         }
     });
 
-    // ================= LOGIN / SIGNUP =================
+    
     authBtn.addEventListener("click", () => {
 
         const name = authName.value.trim();
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 authMessage.innerText = "Welcome back " + savedUser.name + " 🎉";
                 localStorage.setItem("loggedInUser", savedUser.name);
 
-                // 👉 show logout
+                
                 logoutBtn.style.display = "inline-block";
                 loginBtn.style.display = "none";
                 signupBtn.style.display = "none";
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // ================= LOGOUT =================
+    
     logoutBtn.addEventListener("click", () => {
 
         localStorage.removeItem("loggedInUser");
