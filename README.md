@@ -3,8 +3,8 @@ Netflix Clone 🎬
 A responsive Netflix-style landing page built with HTML, CSS, and JavaScript. Features include a hero section, streaming showcase, FAQ accordion, login/signup authentication using localStorage, and email validation.
 
 🚀 Live Demo
+   https://netflix-clone-hap7.vercel.app
 
-(You can host this on GitHub Pages, Vercel, or Netlify)
 
 Features
 Hero section with email input and call-to-action
